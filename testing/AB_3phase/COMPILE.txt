@@ -1,0 +1,5 @@
+COMPILE
+gcc -o testSolverAB testBench.c ../../src/AB_3phase_function.c ../../src/AB_3phase_problem.c
+
+RUN
+./testSolverAB

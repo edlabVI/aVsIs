@@ -1,0 +1,5 @@
+COMPILE
+gcc -o testSolverdq testBench.c ../../src/dq_3phase_function.c ../../src/dq_3phase_problem.c
+
+RUN
+.\testSolverdq 
